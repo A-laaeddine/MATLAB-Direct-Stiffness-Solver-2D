@@ -21,7 +21,7 @@ Developed as a unified computational tool, this solver bridges the gap between t
 ## 📂 Repository Structure
 
 ### Core Script
-* **`main_analysis.m`**: The primary entry point. It orchestrates the workflow: initializing data, calling the assembly functions, solving the system of linear equations ($KU = F$), and outputting results for displacements and reactions.
+* **`mainAnalysis.m`**: The primary entry point. It orchestrates the workflow: initializing data, calling the assembly functions, solving the system of linear equations ($KU = F$), and outputting results for displacements and reactions.
 
 ### Helper Functions
 To maintain modularity, the framework is supported by several specialized functions:
@@ -37,13 +37,12 @@ To maintain modularity, the framework is supported by several specialized functi
 
 ## 🛠️ Usage
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/A-laaeddine/STIFFNESS-MATRIX-STRUCTURAL-ANALYSIS](https://github.com/A-laaeddine/STIFFNESS-MATRIX-STRUCTURAL-ANALYSIS))
-    ```
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/A-laaeddine/STIFFNESS-MATRIX-STRUCTURAL-ANALYSIS.git](https://github.com/A-laaeddine/STIFFNESS-MATRIX-STRUCTURAL-ANALYSIS.git)
 2.  Open **MATLAB** and navigate to the repository folder.
 3.  Define your structural parameters (nodes, members, loads) within the `manualInput.m` function.
-4.  Execute `main_analysis.m` to run the solver.
+4.  Execute `mainAnalysis.m` to run the solver.
 
 ---
 
